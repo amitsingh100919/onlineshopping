@@ -1,15 +1,26 @@
 package com.amitsingh.onlineshopping.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.amitsingh.onlineshopping.dao.CategoryDao;
+import com.amitsingh.onlineshopping.dto.Category;
 
 
 @Controller
 public class HomeController {
+	@Autowired
+	private Category categoryDAO;
 	@RequestMapping(value= {"/","/index","/home"})
 	public ModelAndView index() {
-		return new ModelAndView("index");
+		ModelAndView mv =new ModelAndView("index");
+		mv.addObject("title","Home");
+		mv.addObject("categories",((CategoryDao) categoryDAO).list());
+		return mv;
+		
 	}
 	@RequestMapping(value= "/about")
 	public ModelAndView about() {
@@ -46,6 +57,31 @@ public class HomeController {
 	@RequestMapping(value="/single")
 	public ModelAndView single() {
 		return new ModelAndView("single");
+	}
+	
+	/*
+	 * method to load all the products and based on category
+	 */
+	@RequestMapping(value="/show/all/products")
+	public ModelAndView ShowAllProducts() {
+		ModelAndView mv =new ModelAndView("index");
+		mv.addObject("title","All Products");
+		//passing the list of category
+		mv.addObject("categories",((CategoryDao) categoryDAO).list());
+		return mv;
+	}
+	@RequestMapping(value="/show/category/{id}/products")
+	public ModelAndView ShowCategoryProducts(@PathVariable("id") int id) {
+		ModelAndView mv =new ModelAndView("index");
+		// CategoryDAO to fetch a single category
+		Category category=null;
+		category=((CategoryDao) categoryDAO).get(id);
+		mv.addObject("title",category.getName());
+		//passing the list of category
+		mv.addObject("categories",((CategoryDao) categoryDAO).list());
+		//passing the single category object
+		mv.addObject("category",category);
+		return mv;
 	}
 
 }

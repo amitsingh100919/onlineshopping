@@ -187,10 +187,9 @@
 									<div class="col-sm-3">
 										<ul class="multi-column-dropdown">
 											<h6>Mobiles</h6>
-											<li><a href="products">Mobile Phones</a></li>
-											<li><a href="products">Mp3 Players <span>New</span></a></li> 
-											<li><a href="products">Popular Models</a></li>
-											<li><a href="products">All Tablets<span>New</span></a></li>
+											<c:forEach var="category" items="${categories}">
+											<li><a href="products/all/${category.id}">${category.name}</a></li>
+											</c:forEach>
 										</ul>
 									</div>
 									<div class="col-sm-3">
