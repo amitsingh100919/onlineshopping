@@ -1,149 +1,51 @@
-<html>
-<body>
-<%@include file="/WEB-INF/views/templates/header.jsp" %>
-	<!-- banner -->
-	<div class="banner banner10">
-		<div class="container">
-			<h2>About Us</h2>
-		</div>
-	</div>
-	<!-- //banner -->   
-	<!-- breadcrumbs -->
-	<div class="breadcrumb_dress">
-		<div class="container">
-			<ul>
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a> <i>/</i></li>
-				<li>About Us</li>
-			</ul>
-		</div>
-	</div>
-	<!-- //breadcrumbs --> 
-	<!-- about -->
-	<div class="about">
-		<div class="container">	
-			<div class="w3ls_about_grids">
-				<div class="col-md-6 w3ls_about_grid_left">
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse 
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-						cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-						anim id est laborum.</p>
-					<div class="col-xs-2 w3ls_about_grid_left1">
-						<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
-					</div>
-					<div class="col-xs-10 w3ls_about_grid_left2">
-						<p>Sunt in culpa qui officia deserunt mollit 
-							anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse 
-						cillum dolore eu fugiat nulla pariatur.</p>
-					</div>
-					<div class="clearfix"> </div>
-					<div class="col-xs-2 w3ls_about_grid_left1">
-						<span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
-					</div>
-					<div class="col-xs-10 w3ls_about_grid_left2">
-						<p>Sunt in culpa qui officia deserunt mollit 
-							anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse 
-						cillum dolore eu fugiat nulla pariatur.</p>
-					</div>
-					<div class="clearfix"> </div>
+
+<%@ include file="/WEB-INF/views/templates/header.jsp" %>
+<br><br><br>
+<body>	
+ <div class="jumbotron jumbotron-sm"style="background-color:">
+          <div class="col-sm-12 col-lg-10"></div>
+    	 <h1 class="h1">
+				About Us
+			</h1>
+		<div class="col-md-18">
+			<div class="well well-sm">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="form-group">
+
+				<div>
+					<p>
+						<strong>Dkart.com</strong>, a product of <strong>NIIT</strong>
+						India Private Limited., is a specialists in selling Computers, Repairing
+						tools and accessories, Smartphones and Gadgets. Established in Lucknow, India in 2017.
+						Today we provide all kind of Gaming, Entertainment, Professional Laptops,
+						 Mobile Phones, Accessories, Dope Gadgets
+						and all type developing tools.
+					</p>
+					<p>We aim at becoming one of the largest online Market for Developers,
+						Gamers and for common people.
+						</p>
+					<p>We currently take orders for Mobile Phone, Mobile phone accessories, Laptops such as
+						Gaming Professional and Entertainment purposes. We provide Dope gadgets like Boosted Board,
+						 Light Saber(Star Wars), Karma Drones and Gimbles which are not currently available in India. 
+						We also provide Cases and covers, scratch guards etc. in a variety of designs and
+						models. We do our best to provide you with the best compatible
+						product as per your requirement and aim at providing you with a
+						reliable and efficient solution at the earliest at your door step.</p>
+					<p>As a reliable and efficient service provider, we do our best
+						to provide you with all kinds of compatible cellular, computer, accessories
+						and dope gadgets as per your specifications and requirement. Try us and
+						you will see that we take utmost care to ensure Quality, Fast
+						Delivery and overall efficiency in meeting your requirements.</p>
 				</div>
-				<div class="col-md-6 w3ls_about_grid_right">
-					<img src="${images}/52.jpg" alt=" " class="img-responsive" />
-				</div>
-				<div class="clearfix"> </div>
+
+
 			</div>
+
 		</div>
 	</div>
-	<!-- //about --> 
-	<!-- team -->
-	<div class="team">
-		<div class="container">
-			<h3>Meet Our Team</h3>
-			<div class="wthree_team_grids">
-				<div class="col-md-3 wthree_team_grid">
-					<img src="${images}/t4.png" alt=" " class="img-responsive" />
-					<h4>Smith Allen <span>Manager</span></h4>
-					<div class="agileits_social_button">
-						<ul>
-							<li><a href="#" class="facebook"> </a></li>
-							<li><a href="#" class="twitter"> </a></li>
-							<li><a href="#" class="google"> </a></li>
-							<li><a href="#" class="pinterest"> </a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 wthree_team_grid">
-					<img src="${images}/t5.png" alt=" " class="img-responsive" />
-					<h4>Laura James <span>Designer</span></h4>
-					<div class="agileits_social_button">
-						<ul>
-							<li><a href="#" class="facebook"> </a></li>
-							<li><a href="#" class="twitter"> </a></li>
-							<li><a href="#" class="google"> </a></li>
-							<li><a href="#" class="pinterest"> </a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 wthree_team_grid">
-					<img src="${images}/t6.png" alt=" " class="img-responsive" />
-					<h4>Crisp Doe <span>Director</span></h4>
-					<div class="agileits_social_button">
-						<ul>
-							<li><a href="#" class="facebook"> </a></li>
-							<li><a href="#" class="twitter"> </a></li>
-							<li><a href="#" class="google"> </a></li>
-							<li><a href="#" class="pinterest"> </a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 wthree_team_grid">
-					<img src="${images}/t7.png" alt=" " class="img-responsive" />
-					<h4>Linda Rosy <span>Quality Checker</span></h4>
-					<div class="agileits_social_button">
-						<ul>
-							<li><a href="#" class="facebook"> </a></li>
-							<li><a href="#" class="twitter"> </a></li>
-							<li><a href="#" class="google"> </a></li>
-							<li><a href="#" class="pinterest"> </a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-				<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis 
-					voluptatibus maiores alias consequatur aut perferendis doloribus asperiores 
-					repellat.</p>
-			</div>
-		</div>
+
 	</div>
-	<!-- //team -->
-	<!-- team-bottom -->
-	<div class="team-bottom">
-		<div class="container">
-			<h3>Are You Ready For Deals? Flat <span>30% Offer </span>on Mobiles</h3>
-			<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis 
-				voluptatibus maiores alias consequatur aut perferendis doloribus asperiores 
-				repellat.</p>
-			<a href="products.html">Shop Now</a>
-		</div>
-	</div>
-	<!-- //team-bottom -->
-	<!-- newsletter -->
-	<div class="newsletter">
-		<div class="container">
-			<div class="col-md-6 w3agile_newsletter_left">
-				<h3>Newsletter</h3>
-				<p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
-			</div>
-			<div class="col-md-6 w3agile_newsletter_right">
-				<form action="#" method="post">
-					<input type="email" name="Email" placeholder="Email" required="">
-					<input type="submit" value="" />
-				</form>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<!-- //newsletter -->
-	<!-- footer -->
-	<%@include file="/WEB-INF/views/templates/footer.jsp" %>
+	</div> 	
 </body>
-</html>
+<%@ include file="/WEB-INF/views/templates/footer.jsp" %>>

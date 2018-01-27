@@ -1,5 +1,3 @@
-<html>
-<body>
 <%@include file="/WEB-INF/views/templates/header.jsp" %>
 	<!-- banner -->
 	<div class="banner">
@@ -72,7 +70,7 @@
 									</div> 
 									<h5><a href="single">Mobile Phone1</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$380</span> <i class="item_price">$350</i></p>
+										<p><span>&#8377;380</span> <i class="item_price">&#8377;350</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -102,7 +100,7 @@
 									</div>
 									<h5><a href="single">Mobile Phone2</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$330</span> <i class="item_price">$302</i></p>
+										<p><span>&#8377;330</span> <i class="item_price">&#8377;302</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -132,7 +130,7 @@
 									</div>
 									<h5><a href="single">Mobile Phone3</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$250</span> <i class="item_price">$245</i></p>
+										<p><span>&#8377;250</span> <i class="item_price">&#8377;245</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -166,7 +164,7 @@
 										</div>
 									</div>
 									<h5><a href="single">Speakers</a></h5>
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>&#8377;320</span> <i class="item_price">&#8377;250</i></p>
 									<div class="simpleCart_shelfItem">
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
@@ -197,7 +195,7 @@
 									</div>
 									<h5><a href="single">Headphones</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$180</span> <i class="item_price">$150</i></p>
+										<p><span>&#8377;180</span> <i class="item_price">&#8377;150</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -227,7 +225,7 @@
 									</div>
 									<h5><a href="single">Audio Player</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$220</span> <i class="item_price">$180</i></p>
+										<p><span>&#8377;220</span> <i class="item_price">&#8377;180</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -262,7 +260,7 @@
 									</div>
 									<h5><a href="single">Laptop</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$880</span> <i class="item_price">$850</i></p>
+										<p><span>&#8377;880</span> <i class="item_price">&#8377;850</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -292,7 +290,7 @@
 									</div>
 									<h5><a href="single">Notebook</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$290</span> <i class="item_price">$280</i></p>
+										<p><span>&#8377;290</span> <i class="item_price">&#8377;280</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -322,7 +320,7 @@
 									</div>
 									<h5><a href="single">Kid's Toy</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$120</span> <i class="item_price">$80</i></p>
+										<p><span>&#8377;120</span> <i class="item_price">&#8377;80</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -357,7 +355,7 @@
 									</div>
 									<h5><a href="single">Refrigerator</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$950</span> <i class="item_price">$820</i></p>
+										<p><span>&#8377;950</span> <i class="item_price">&#8377;820</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -387,7 +385,7 @@
 									</div>
 									<h5><a href="single">LED Tv</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$700</span> <i class="item_price">$680</i></p>
+										<p><span>&#8377;700</span> <i class="item_price">&#8377;680</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -482,7 +480,7 @@
 									</div>
 									<h5><a href="single">Water Purifier</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$390</span> <i class="item_price">$350</i></p>
+										<p><span>&#8377;390</span> <i class="item_price">&#8377;350</i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" /> 
@@ -567,7 +565,7 @@
 								<div class="clearfix"> </div>
 							</div>
 							<div class="modal_body_right_cart simpleCart_shelfItem">
-								<p><span>$380</span> <i class="item_price">$350</i></p>
+								<p><span>&#8377;380</span> <i class="item_price">&#8377;350</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
 									<input type="hidden" name="add" value="1"> 
@@ -631,7 +629,7 @@
 								<div class="clearfix"> </div>
 							</div>
 							<div class="modal_body_right_cart simpleCart_shelfItem">
-								<p><span>$180</span> <i class="item_price">$150</i></p>
+								<p><span>&#8377;180</span> <i class="item_price">&#8377;150</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
 									<input type="hidden" name="add" value="1"> 
@@ -690,7 +688,7 @@
 								<div class="clearfix"> </div>
 							</div>
 							<div class="modal_body_right_cart simpleCart_shelfItem">
-								<p><span>$880</span> <i class="item_price">$850</i></p>
+								<p><span>&#8377;880</span> <i class="item_price">&#8377;850</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
 									<input type="hidden" name="add" value="1"> 
@@ -749,7 +747,7 @@
 								<div class="clearfix"> </div>
 							</div>
 							<div class="modal_body_right_cart simpleCart_shelfItem">
-								<p><span>$950</span> <i class="item_price">$820</i></p>
+								<p><span>&#8377;950</span> <i class="item_price">&#8377;820</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
 									<input type="hidden" name="add" value="1"> 
@@ -809,7 +807,7 @@
 								<div class="clearfix"> </div>
 							</div>
 							<div class="modal_body_right_cart simpleCart_shelfItem">
-								<p><span>$460</span> <i class="item_price">$450</i></p>
+								<p><span>&#8377;460</span> <i class="item_price">&#8377;450</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
 									<input type="hidden" name="add" value="1"> 
@@ -869,7 +867,7 @@
 								<div class="clearfix"> </div>
 							</div>
 							<div class="modal_body_right_cart simpleCart_shelfItem">
-								<p><span>$960</span> <i class="item_price">$920</i></p>
+								<p><span>&#8377;960</span> <i class="item_price">&#8377;920</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
 									<input type="hidden" name="add" value="1"> 
@@ -933,7 +931,7 @@
 								<div class="clearfix"> </div>
 							</div>
 							<div class="modal_body_right_cart simpleCart_shelfItem">
-								<p><span>$280</span> <i class="item_price">$250</i></p>
+								<p><span>&#8377;280</span> <i class="item_price">&#8377;250</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
 									<input type="hidden" name="add" value="1"> 
@@ -959,220 +957,6 @@
 		</div>
 	</div>
 	<!-- //modal-video -->
-	<!-- banner-bottom1 -->
-	<div class="banner-bottom1">
-		<div class="agileinfo_banner_bottom1_grids">
-			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
-				<h3>Grand Opening Event With flat<span>20% <i>Discount</i></span></h3>
-				<a href="products">Shop Now</a>
-			</div>
-			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
-				<h4>hot deal</h4>
-				<div class="timer_wrap">
-					<div id="counter"> </div>
-				</div>
-				<script src="${js}/jquery.countdown.js"></script>
-				<script src="${js}/script.js"></script>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<!-- //banner-bottom1 --> 
-	<!-- special-deals -->
-	<div class="special-deals">
-		<div class="container">
-			<h2>Special Deals</h2>
-			<div class="w3agile_special_deals_grids">
-				<div class="col-md-7 w3agile_special_deals_grid_left">
-					<div class="w3agile_special_deals_grid_left_grid">
-						<img src="${images}/21.jpg" alt=" " class="img-responsive" />
-						<div class="w3agile_special_deals_grid_left_grid_pos1">
-							<h5>30%<span>Off/-</span></h5>
-						</div>
-						<div class="w3agile_special_deals_grid_left_grid_pos">
-							<h4>We Offer <span>Best Products</span></h4>
-						</div>
-					</div>
-					<div class="wmuSlider example1">
-						<div class="wmuSliderWrapper">
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
-								<div class="banner-wrap">
-									<div class="w3agile_special_deals_grid_left_grid1">
-										<img src="${images}/t1.png" alt=" " class="img-responsive" />
-										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
-											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
-											eum fugiat quo voluptas nulla pariatur</p>
-										<h4>Laura</h4>
-									</div>
-								</div>
-							</article>
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
-								<div class="banner-wrap">
-									<div class="w3agile_special_deals_grid_left_grid1">
-										<img src="${images}/t2.png" alt=" " class="img-responsive" />
-										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
-											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
-											eum fugiat quo voluptas nulla pariatur</p>
-										<h4>Michael</h4>
-									</div>
-								</div>
-							</article>
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
-								<div class="banner-wrap">
-									<div class="w3agile_special_deals_grid_left_grid1">
-										<img src="${images}/t3.png" alt=" " class="img-responsive" />
-										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
-											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
-											eum fugiat quo voluptas nulla pariatur</p>
-										<h4>Rosy</h4>
-									</div>
-								</div>
-							</article>
-						</div>
-					</div>
-						<script src="${js}/jquery.wmuSlider.js"></script> 
-						<script>
-							$('.example1').wmuSlider();         
-						</script> 
-				</div>
-				<div class="col-md-5 w3agile_special_deals_grid_right">
-					<img src="${images}/20.jpg" alt=" " class="img-responsive" />
-					<div class="w3agile_special_deals_grid_right_pos">
-						<h4>Women's <span>Special</span></h4>
-						<h5>save up <span>to</span> 30%</h5>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //special-deals -->
-	<!-- new-products -->
-	<div class="new-products">
-		<div class="container">
-			<h3>New Products</h3>
-			<div class="agileinfo_new_products_grids">
-				<div class="col-md-3 agileinfo_new_products_grid">
-					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
-						<div class="hs-wrapper hs-wrapper1">
-							<img src="${images}/25.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/23.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/24.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/22.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/26.jpg" alt=" " class="img-responsive" /> 
-							<div class="w3_hs_bottom w3_hs_bottom_sub">
-								<ul>
-									<li>
-										<a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h5><a href="single">Laptops</a></h5>
-						<div class="simpleCart_shelfItem">
-							<p><span>$520</span> <i class="item_price">$500</i></p>
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="add" value="1"> 
-								<input type="hidden" name="w3ls_item" value="Red Laptop"> 
-								<input type="hidden" name="amount" value="500.00">   
-								<button type="submit" class="w3ls-cart">Add to cart</button>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 agileinfo_new_products_grid">
-					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
-						<div class="hs-wrapper hs-wrapper1">
-							<img src="${images}/27.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/28.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/29.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/30.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/31.jpg" alt=" " class="img-responsive" /> 
-							<div class="w3_hs_bottom w3_hs_bottom_sub">
-								<ul>
-									<li>
-										<a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h5><a href="single">Black Phone</a></h5>
-						<div class="simpleCart_shelfItem">
-							<p><span>$380</span> <i class="item_price">$370</i></p>
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="add" value="1"> 
-								<input type="hidden" name="w3ls_item" value="Black Phone"> 
-								<input type="hidden" name="amount" value="370.00">   
-								<button type="submit" class="w3ls-cart">Add to cart</button>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 agileinfo_new_products_grid">
-					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
-						<div class="hs-wrapper hs-wrapper1">
-							<img src="${images}/34.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/33.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/32.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/35.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/36.jpg" alt=" " class="img-responsive" /> 
-							<div class="w3_hs_bottom w3_hs_bottom_sub">
-								<ul>
-									<li>
-										<a href="#" data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h5><a href="single">Kids Toy</a></h5>
-						<div class="simpleCart_shelfItem">
-							<p><span>$150</span> <i class="item_price">$100</i></p>
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="add" value="1"> 
-								<input type="hidden" name="w3ls_item" value="Kids Toy"> 
-								<input type="hidden" name="amount" value="100.00">   
-								<button type="submit" class="w3ls-cart">Add to cart</button>
-							</form>
-						</div>  
-					</div>
-				</div>
-				<div class="col-md-3 agileinfo_new_products_grid">
-					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
-						<div class="hs-wrapper hs-wrapper1">
-							<img src="${images}/37.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/38.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/39.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/40.jpg" alt=" " class="img-responsive" />
-							<img src="${images}/41.jpg" alt=" " class="img-responsive" /> 
-							<div class="w3_hs_bottom w3_hs_bottom_sub">
-								<ul>
-									<li>
-										<a href="#" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<h5><a href="single">Induction Stove</a></h5>
-						<div class="simpleCart_shelfItem">
-							<p><span>$280</span> <i class="item_price">$250</i></p>
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="add" value="1"> 
-								<input type="hidden" name="w3ls_item" value="Induction Stove"> 
-								<input type="hidden" name="amount" value="250.00">   
-								<button type="submit" class="w3ls-cart">Add to cart</button>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //new-products -->
 	<!-- top-brands -->
 	<div class="top-brands">
 		<div class="container">
@@ -1245,5 +1029,3 @@
 	</div>
 	<!-- //newsletter -->
 	<%@include file="/WEB-INF/views/templates/footer.jsp" %>  
-</body>
-</html>

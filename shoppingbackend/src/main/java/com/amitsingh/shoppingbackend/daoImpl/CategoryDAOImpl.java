@@ -18,7 +18,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 	@Autowired
 	private SessionFactory sessionFactory;
 
-	@Override
+	
 	public List<Category> list() {
 		
 		String selectActiveCategory = "FROM Category WHERE active = :active";
@@ -33,14 +33,14 @@ public class CategoryDAOImpl implements CategoryDAO {
 	/*
 	 * Getting single category based on id
 	 */
-	@Override
+	
 	public Category get(int id) {
 
 		return sessionFactory.getCurrentSession().get(Category.class, Integer.valueOf(id));
 
 	}
 
-	@Override
+	
 
 	public boolean add(Category category) {
 
@@ -58,7 +58,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 	/*
 	 * Updating a single category
 	 */
-	@Override
+	
 	public boolean update(Category category) {
 
 		try {
@@ -71,7 +71,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 		}
 	}
 
-	@Override
+	
 	public boolean delete(Category category) {
 		
 		category.setActive(false);

@@ -25,7 +25,7 @@
         </property>
         <property name="packagesToScan">
             <list>
-                <value>com.amitsingh.onlineshopping</value>
+                <value>com.onlineshopping</value>
             </list>
         </property>
     </bean>
@@ -38,7 +38,7 @@
         <property name="maxUploadSize" value="10240000" />
     </bean>
 
-  <!--   <security:http auto-config="true">
+     <security:http auto-config="true">
         <security:intercept-url pattern="/admin/**" access="ROLE_ADMIN" />
         <security:intercept-url pattern="/customer/**" access="ROLE_USER" />
         <security:form-login
@@ -73,5 +73,5 @@
     <bean id="flowHandlerAdapter" class="org.springframework.webflow.mvc.servlet.FlowHandlerAdapter">
         <property name="flowExecutor" ref="flowExecutor" />
     </bean>
- -->
+ 
 </beans>
