@@ -3,13 +3,13 @@ var cartApp = angular.module ("cartApp", []);
 cartApp.controller("cartCtrl", function($scope, $http){
 
     $scope.refreshCart = function(){
-       $http.get('http://localhost:8080/dt/rest/cart/' + $scope.cartId).success(function (data){
+       $http.get('http://localhost:8080/onlineshopping/rest/cart/' + $scope.cartId).success(function (data){
            $scope.cart = data;
        });
     };
 
     $scope.clearCart = function(){
-        $http.remove('http://localhost:8080/dt/rest/cart/' + $scope.cartId).success($scope.refreshCart());
+        $http.delete('http://localhost:8080/onlineshopping/rest/cart/' + $scope.cartId).success($scope.refreshCart());
     };
 
     $scope.initCartId = function(cartId){
@@ -18,13 +18,13 @@ cartApp.controller("cartCtrl", function($scope, $http){
     };
 
     $scope.addToCart = function(productId){
-        $http.put('http://localhost:8080/dt/rest/cart/add/' + productId).success(function (){
+        $http.put('http://localhost:8080/onlineshopping/rest/cart/add/' + productId).success(function (){
             alert('Product successfully added to the cart!');
         });
     };
 
     $scope.removeFromCart = function(productId){
-        $http.put('http://localhost:8080/dt/rest/cart/remove/' + productId).success(function(data){
+        $http.put('http://localhost:8080/onlineshopping/rest/cart/remove/' + productId).success(function(data){
            $scope.refreshCart();
         });
     };

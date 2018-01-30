@@ -1,7 +1,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
-<script src="src/main/webapp/WEB-INF/resources/js/angular.min.js">
+
 	
 
 
@@ -12,6 +12,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="${js}/angular.min_.4.3.js"></script>
 <title>Electronic Store a Ecommerce Online Shopping Category
 	Bootstrap Responsive Website Template | Home :: w3layouts</title>
 <!-- for-mobile-apps -->
@@ -36,8 +37,7 @@ color:red;
 <!-- Custom Theme files -->
 
 <!-- Angular.JS -->
-<script
-	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
+
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script
@@ -47,12 +47,6 @@ color:red;
 <!-- Bootstrap core CSS -->
 <link href="<c:url value="/resources/css/bootstrap.min.css" />"
 	rel="stylesheet">
-<!-- MaCarouselin CSS -->
-<link href="<c:url value="/resources/css/carousel.css" />"rel="stylesheet">
-
-<!-- Main CSS -->
-<link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
-
 
 <link
 	href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css"
@@ -104,8 +98,7 @@ color:red;
 	<div class="header" id="home1">
 		<div class="container">
 			<div class="w3l_login">
-				<a href="#" data-toggle="modal" data-target="#myModal88"><span
-					class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+				<img src="${images}/logo.jpg"/>
 			</div>
 			<div class="w3l_logo">
 				<h1>
@@ -113,26 +106,8 @@ color:red;
 							stores. Your place.</span></a>
 				</h1>
 			</div>
-			<div class="search">
-				<input class="search_box" type="checkbox" id="search_box"> <label
-					class="icon-search" for="search_box"><span
-					class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
-				<div class="search_form">
-					<form action="#" method="post">
-						<input type="text" name="Search" placeholder="Search...">
-						<input type="submit" value="Send">
-					</form>
-				</div>
-			</div>
-			<div class="cart cart box_1">
-				<form action="#" method="post" class="last">
-					<input type="hidden" name="cmd" value="_cart" /> <input
-						type="hidden" name="display" value="1" />
-					<button class="w3view-cart" type="submit" name="submit" value="">
-						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-					</button>
-				</form>
-			</div>
+			
+			
 		</div>
 	</div>
 	<!-- //header -->

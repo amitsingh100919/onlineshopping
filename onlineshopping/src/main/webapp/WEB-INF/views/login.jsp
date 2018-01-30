@@ -30,13 +30,12 @@
                     <label for="password">Passwrod:</label>
                     <input type="password" id="password" class="form-control" name="password" class="form-control" placeholder="password"/>
                 </div>
-                <div>
+                <div >
                 <input type="submit" value="SignIn" class="btn btn-default">
-                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
-                 <label class="checkbox pull-right">
-                    <input type="checkbox" />
-                    Remember me
-                </label>
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
+                 <span style="float:right;">Remember me</span><input type="checkbox" style="float:right;"/>
+                 
+                
                 </div>
           </form>
             </div></div></div>

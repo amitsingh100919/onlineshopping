@@ -39,7 +39,7 @@ public class CustomerDaoImpl implements CustomerDao{
 
         Authorities newAuthorities = new Authorities();
         newAuthorities.setUsername(customer.getUsername());
-        newAuthorities.setAuthority("ROLE_ADMIN");
+        newAuthorities.setAuthority("ROLE_USER");
 
         session.saveOrUpdate(newUser);
         session.saveOrUpdate(newAuthorities);

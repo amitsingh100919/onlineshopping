@@ -7,7 +7,10 @@
         <h1>Help Page</h1>
            </div>
 
-        <img src="<c:url value="/resources/images/logo/Capture.PNG" />" alt="showroom" >
+        <img class="img-responsive" width="80%" src="${images}/images1.jpg" alt="showroom" >
+        <strong>How to order product</strong>
+        <p>To buy any product you have to log in first
+        then only you can buy it.<p>
 
 </div></div>
 <%@ include file="/WEB-INF/views/templates/footer.jsp" %>

@@ -15,7 +15,7 @@
 
 				<div>
 					<p>
-						<strong>Dkart.com</strong>, a product of <strong>NIIT</strong>
+						<strong>Electronic Store.com</strong>, a product of <strong>NIIT</strong>
 						India Private Limited., is a specialists in selling Computers, Repairing
 						tools and accessories, Smartphones and Gadgets. Established in Lucknow, India in 2017.
 						Today we provide all kind of Gaming, Entertainment, Professional Laptops,

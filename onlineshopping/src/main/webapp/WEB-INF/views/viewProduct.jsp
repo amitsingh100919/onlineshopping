@@ -3,6 +3,12 @@
 <%@ include file="/WEB-INF/views/templates/header.jsp" %>
 
 <br><br><br>
+<style>
+
+a:link {
+    color: black;
+}
+</style>
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">

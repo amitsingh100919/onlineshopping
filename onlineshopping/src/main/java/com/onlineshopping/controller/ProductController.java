@@ -37,7 +37,7 @@ public class ProductController {
     }
 
     @RequestMapping("/productList")
-    public String getProductByCategory(@RequestParam("searchCondition") String searchCondition, Model model){
+    public String getProductByCategory(@RequestParam(value="searchCondition",required=false) String searchCondition, Model model){
         List<Product> products = productService.getProductList();
         model.addAttribute("products", products);
         model.addAttribute("searchCondition", searchCondition);
